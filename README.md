@@ -5,7 +5,6 @@ SkillMingle is a web application that connects users with job opportunities base
 **Technologies Used** - React(Vite) ,Express.js, Node.js, MongoDB
 
 ## 🚀Features
-- **User Authentication** – Secure login and signup.
 - **Skill Management** – Add, update, and manage your skills.
 - **Job Matching** – Get matched with jobs scraped from LinkedIn.
 - **ScrapingDog API Integration** – Fetch real-time job listings.
