@@ -1,16 +1,17 @@
-# SkillMingle
+# 🧩SkillMingle
 
-SkillMingle is designed to help job seekers find job opportunities that perfectly match their resumes and skill sets.
+SkillMingle is a web application that connects users with job opportunities based on their skills. Users can create an account, update their profile with skills, and get matched with relevant jobs scraped from LinkedIn using **ScrapingDog API**. The platform also features skill assessment tests, helping recruiters evaluate candidates’ proficiency and making the hiring process more transparent.
 
-## Table of Contents
+**Technologies Used** - React(Vite) ,Express.js, Node.js, MongoDB
 
-- [Prerequisites](#prerequisites)
-- [Setting up and Running the Applications](#setting-up-and-running-the-applications)
-  - [Express Backend](#express-backend)
-  - [Frontend](#frontend)
-- [Additional Notes](#additional-notes)
+## 🚀Features
+- **User Authentication** – Secure login and signup.
+- **Skill Management** – Add, update, and manage your skills.
+- **Job Matching** – Get matched with jobs scraped from LinkedIn.
+- **ScrapingDog API Integration** – Fetch real-time job listings.
+- **Skill Assessments** – Take tests to showcase your proficiency.
 
-## Prerequisites
+## 🛠️Prerequisites
 
 Before running the application, ensure the following are installed on your system:
 
@@ -53,8 +54,3 @@ Before running the application, ensure the following are installed on your syste
     ```bash
     npm run dev
     ```
-
-## Additional Notes
-
-- Check your system's environment variables to ensure Node.js is correctly configured.
-- If you encounter any errors related to missing packages, rerun the `npm install` command to resolve dependencies.
