@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label{
+  font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #1D3557;
+}
+
+.homeContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+  background-color: #d9d9d9;
+}
+
+.navb {
+  width: 20%;
+  background-color: #050625;
+  color: black;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+  padding-top: 2rem;
+}
+
+.navb ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navb ul li {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.navb ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  display: block;
+  padding: 0.5rem 0;
+  transition: background-color 0.3s;
+}
+
+.navb ul li a:hover {
+  /* background-color: #34495e; */
+  background-color: #296e99;
+}
+
+.body {
+  width: 80%;
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 80px;
+  /* width: 1213px; */
+  /* background-color: #fff; */
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid black;
+  color: #000000;
+}
+
+.header h2 {
+  /* color: #2c3e50; */
+  color: #000000;
+}
+
+.profilePic {
+  display: flex;
+  align-items: center;
+}
+
+.photo {
+  margin-right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #bdc3c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.skilltestcontainer select{
+  background-color: white;
+}
+
+.logout {
+  background-color: #e74c3c;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 0;
+  width: 6vw;
+}
+
+.logout:hover {
+  background-color: #c0392b;
+}
+
+
+.rectangle2
+{
+  /* width: 1213px; */
+  /* height: 240px; */
+  /* border: 10px solid black; */
+  position: relative;
+}
+
+.rectangle2img
+{
+  width: 100%;
+  height: auto;
+}
+
+.mainbody {
+  /* height: 70%; */
+  /* border: 10px solid black; */
+  width: 721px;
+  height: 492px;
+  padding: 2rem;
+  overflow-y: auto;
+  /* position: absolute; */
+  /* top: 50px; */
+  background-color: white ;
+  justify-self: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: -20vh;
+}
+
+.dynamicField {
+  margin-bottom: 2rem;
+}
+
+.dynamicField label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+textarea{
+  background-color: white;
+  color: #333333;
+  width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+input{
+  background-color: white;
+  color: #333333;
+}
+.dynamicInput textarea,
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.addFieldButton {
+  /* background-color: #27ae60; */
+  background-color: #1D3557;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.addFieldButton:hover {
+  /* background-color: #229954; */
+  background-color: #234459;
+}
+
+button[type="submit"] {
+  background-color: #2980b9;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #1f618d;
+}
+
+.skillsContainer {
+  margin: 2rem auto;
+  padding: 2rem;
+  /* background: #f9f9f9; */
+  background-color:  white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skillsContainer label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.skillsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skillItem {
+  padding: 0.5rem 1rem;
+  /* background-color: #ecf0f1; */
+  /* background-color: #A8DADC; */
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 2px solid black;
+}
+
+.skillItem:hover {
+  background-color: #bdc3c7;
+}
+
+.skillItem.selected {
+  /* background-color: #27ae60; */
+  background-color: #1D3557;
+  color: #fff;
+}
+
+.skillTests,
+.skillLevels {
+  margin-bottom: 1rem;
+}
+
+.skillTests button {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.skillTests button:hover {
+  background-color: #2980b9;
+}
+
+.skillLevels ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skillLevels li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.achievements, .certifications, .skillLevels {
+  margin-bottom: 2rem;
+}
+
+.achievements label, .certifications label, .skillLevels h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.achievements textarea, .certifications textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.skillLevels div {
+  background: #ecf0f1;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.skillLevels strong {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.name , .contact , .skilltestcontainer{
+  margin-bottom: 4vh;
+}
